@@ -1,0 +1,482 @@
+Last login: Fri Jun 29 21:45:00 on ttys000
+Raktims-iMac:~ raktim$ pwd
+/Users/raktim
+Raktims-iMac:~ raktim$ cd raktim
+-bash: cd: raktim: No such file or directory
+Raktims-iMac:~ raktim$ cd ~raktim
+Raktims-iMac:~ raktim$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Raktims-iMac:~ raktim$ cd documents
+Raktims-iMac:documents raktim$ ls
+Dog-master	Hello		MATLAB		git.rtf
+Raktims-iMac:documents raktim$ cd hello
+Raktims-iMac:hello raktim$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	renamed:    index.txt -> first.txt
+
+Raktims-iMac:hello raktim$ git log
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+Author: Raktim Dey <raktimdey@hotmail.com>
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:13:56 2018 +0600
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:13:56 2018 +0600
+
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:13:56 2018 +0600
+
+    i changed you fucker
+
+commit 4d0d676465c6f96eafc02ab8c250766e17dfb936
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:09:23 2018 +0600
+:...skipping...
+commit 79370f194d0fc997f4c5cbc64d50cd493a98407a (HEAD -> master)
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:31:32 2018 +0600
+
+    renamed first.txt to index
+
+commit 367ec4c9b08d71f92a9e78a34704a9c384676167
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:28:19 2018 +0600
+
+    delete on this time
+
+commit fa5be821167d7e8f2243503ed164ce5fcb46f4a6
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:25:40 2018 +0600
+
+    made some dumb changes
+
+commit 51092d2cade1244c087703ddb69289e91193405a
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:20:38 2018 +0600
+
+    commit
+
+commit 03580f0c33361b12c03e87c2b966608cb9b10640
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:13:56 2018 +0600
+
+    i changed you fucker
+
+commit 4d0d676465c6f96eafc02ab8c250766e17dfb936
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 22:09:23 2018 +0600
+
+    adding the second file
+
+commit 6db0909f6d24f2cbcc85f7c78e42e1c3c26e4b91
+Author: Raktim Dey <raktimdey@hotmail.com>
+Date:   Fri Jun 29 21:58:50 2018 +0600
+
+    this is my first commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Raktims-iMac:hello raktim$ bash
+bash-3.2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	renamed:    index.txt -> first.txt
+
+bash-3.2$ git remote add githubRepo git remote add origin https://github.com/raktimdey/tutorials.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+bash-3.2$ git remote
+bash-3.2$ git remote add githubRepo https://github.com/raktimdey/tutorials.git
+bash-3.2$ git remote
+githubRepo
+bash-3.2$ git push -a githubRepo
+error: unknown switch `a'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+bash-3.2$ git push -a githubRepo
+error: unknown switch `a'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+bash-3.2$ git push -a githubRepo master
+error: unknown switch `a'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+bash-3.2$ git push -u githubRepo master
+Username for 'https://github.com': raktimdey
+Password for 'https://raktimdey@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/raktimdey/tutorials.git/'
+bash-3.2$ git push -u githhubRepo master
+fatal: 'githhubRepo' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git remote
+githubRepo
+bash-3.2$ git push -u githubRepo master
+Username for 'https://github.com': raktimdey@hotmail.com
+Password for 'https://raktimdey@hotmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/raktimdey/tutorials.git/'
+bash-3.2$ git push -u githubRepo master
+Username for 'https://github.com': raktimdey
+Password for 'https://raktimdey@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/raktimdey/tutorials.git/'
+bash-3.2$ git push -u githubRepo master
+Username for 'https://github.com': raktimdey
+Password for 'https://raktimdey@github.com': 
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (19/19), 1.70 KiB | 868.00 KiB/s, done.
+Total 19 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/raktimdey/tutorials.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'githubRepo'.
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'githubRepo/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	renamed:    index.txt -> first.txt
+
+bash-3.2$ ls
+first.txt
+bash-3.2$ nano abc.txt
+
+  GNU nano 2.0.6                 File: abc.txt                                Modified  
+
+okay hy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Page  ^K Cut Text   ^C Cur Pos
+^X Exit       ^J Justify    ^W Where Is   ^V Next Page  ^U UnCut Text ^T To Spell
